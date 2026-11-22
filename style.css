@@ -52,6 +52,7 @@
 .lab .lab-link{float:none;justify-self:start;align-self:start;margin-top:14px}
 .context-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:32px}
 .context-cards.two,.case-decisions.two{grid-template-columns:repeat(2,1fr)}
+.context-cards:has(>article:only-child){grid-template-columns:1fr}
 .context-cards article,.case-decisions>article{border-top:2px solid #293a41;padding-top:20px;min-width:0}
 .context-cards h3,.case-decisions>article h3{font-size:23px;font-weight:600;margin-bottom:14px}
 .context-cards p,.case-decisions>article p{font-size:16px;line-height:1.9;color:var(--muted)}

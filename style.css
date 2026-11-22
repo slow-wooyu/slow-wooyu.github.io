@@ -40,3 +40,30 @@
 @media(max-width:800px){.case-hero.finder .screen-shot{width:205px}.case-hero.finder .case-hero-inner{gap:30px}.finder-sequence{padding:12px 28px 30px;gap:20px}.finder-sequence figure{flex-basis:29%;width:29%}.finder .project-status{margin-left:30px}}
 @media(max-width:520px){.finder-sequence{padding:6px 20px 26px;gap:14px}.finder-sequence figure{flex:1 1 0;width:calc(50% - 7px)}.finder-sequence figcaption{font-size:12px}.finder .project-status{margin:0 27px 20px}.case-hero.finder .case-hero-inner{gap:16px;padding:0 20px 32px}.case-hero.finder .screen-shot{width:calc(50% - 8px);padding:4px;border-radius:11px}.case-hero.finder .screen-shot img{border-radius:7px}}
 @media(prefers-reduced-motion:reduce){.motion-pending{opacity:1;transform:none}*,*:before,*:after{animation:none!important;transition:none!important}}
+/* Keep the portfolio's phrases intact and align matching card fields. */
+.case-summary,.work-description,.original-copy,.context-cards p,.case-decisions p{word-break:keep-all;overflow-wrap:break-word;text-wrap:pretty}
+.case-heading,.case-section h2,.case-summary{text-wrap:balance}
+.role-list{display:flex;flex-wrap:wrap;gap:3px 14px;list-style:none;padding:0;margin:0}
+.role-list li{white-space:nowrap}
+.lab-grid{row-gap:0;align-items:stretch}
+.lab{display:grid;grid-template-rows:subgrid;grid-row:span 4;min-width:0}
+.lab>p{margin:0;padding:0;line-height:1.7;text-wrap:pretty;overflow-wrap:break-word}
+.lab>small{display:block;margin-top:9px;align-self:start}
+.lab .lab-link{float:none;justify-self:start;align-self:start;margin-top:14px}
+.context-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:32px}
+.context-cards.two,.case-decisions.two{grid-template-columns:repeat(2,1fr)}
+.context-cards article,.case-decisions>article{border-top:2px solid #293a41;padding-top:20px;min-width:0}
+.context-cards h3,.case-decisions>article h3{font-size:23px;font-weight:600;margin-bottom:14px}
+.context-cards p,.case-decisions>article p{font-size:16px;line-height:1.9;color:var(--muted)}
+.source-caption{font-size:13px!important;color:var(--muted);margin-top:14px!important}
+.lab-original-copy>div+div{margin-top:28px}
+.lab-original-copy h3{font-size:24px}
+.lab-original-copy p{font-size:16px}
+.project-flow{font-size:15px!important;line-height:1.9!important;text-wrap:pretty}
+.reels-evidence{display:flex;justify-content:space-between;gap:30px;align-items:center;margin-top:35px;padding-top:25px;border-top:1px solid var(--line)}
+.reels-evidence h3{font-size:20px;font-weight:600}
+.reels-evidence p,.reels-evidence dt{font-size:13px;color:var(--muted)}
+.reels-evidence dl{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin:0}
+.reels-evidence dd{font-size:28px;font-weight:600;margin:4px 0 0;letter-spacing:-.04em}
+@media(max-width:800px){.context-cards,.context-cards.two,.case-decisions.two{grid-template-columns:1fr}.context-cards h3,.case-decisions>article h3{font-size:21px}.reels-evidence{display:block}.reels-evidence dl{margin-top:20px}.role-list{gap:3px 12px}}
+@media(max-width:520px){.lab{margin-bottom:35px}.lab:last-child{margin-bottom:0}.lab>small{display:block}.lab .lab-link{float:none}.reels-evidence dl{gap:12px}.reels-evidence dd{font-size:25px}}

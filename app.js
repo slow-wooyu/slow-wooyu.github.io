@@ -1,11 +1,321 @@
 const projects = [
-  {id:'toss',client:'농협중앙회 · 토스 연계',period:'2025.02 — 현재',status:'운영 반영',name:'토스에서 만나는<br>농·축협 금융상품',short:'토스에서 농·축협 특판 상품의 금리와 가입조건을 한눈에 비교하도록 구성했습니다.',images:['toss','toss-detail'],role:'화면 기획 · UX/UI 디자인 · 개발 협업 · 테스트',title:'금리와 가입조건을 비교하는<br>농·축협 특판 상품 탐색',summary:'토스에서 농·축협 특판 상품을 금리·기간·지점 기준으로 비교할 수 있도록 기획한 화면입니다.',context:'젊은 고객과의 접점을 넓히기 위해 토스에서 농·축협 금융상품을 소개하는 서비스입니다. 고객이 여러 상품을 탐색할 때 무엇을 먼저 보고 비교할 수 있을지 고민했습니다. 상품별 최고금리를 중심에 두고, 금리·기간·지점 정보를 읽는 순서를 정리했습니다.',question:'상품이 많아도<br>비교 기준은 분명하게',decisions:[['최고금리를 우선 전달','최고금리 기준 순위를 표현하고, 1위 상품의 금리와 가입기간을 먼저 확인할 수 있도록 구성했습니다.'],['순위를 쉽게 읽는 표현','메달과 순위, 콕뱅크 캐릭터를 활용해 상품 간 위계를 시각적으로 전달했습니다.'],['탐색에 필요한 정보','상품 카드와 상세 화면에서 지점, 가입기간, 금리 등 확인할 정보를 정리했습니다.']],flow:['토스 연계 채널 진입','예금·적금 선택','금리·기간·지점 비교','상품 상세 확인'],delivery:'화면 기획과 디자인을 맡아 개발·디자인 담당자와 구현 내용을 확인했습니다. 테스트를 거쳐 제안한 디자인이 최종 운영 화면에 반영되었습니다.',note:'화면의 0.00%와 날짜 등은 디자인 시안용 예시입니다. 현재 판매 금리나 상품 조건을 안내하는 페이지가 아닙니다.',captions:['최고금리와 1위 상품 중심의 구성','순위별 상품과 정보 위계']},
-  {id:'applepay',client:'현대카드',period:'2024.08 — 2025.01',status:'내부 검토 기획안',name:'내 주변에서 찾는<br>Apple Pay 사용 가능 매장',short:'단말기 정보와 최근 결제 이력을 바탕으로, 주변 매장 탐색과 길찾기를 연결하는 흐름을 제안했습니다.',images:['hy-results','hy-detail'],role:'서비스 아이디어 · 사용자 흐름 · 화면설계 · 디자인',title:'Apple Pay 사용 가능 매장을<br>내 주변에서 찾도록',summary:'단말기와 최근 결제 정보를 활용해 주변 매장 탐색·검색·길찾기를 연결한 서비스 기획안입니다.',context:'같은 브랜드라도 단말기 환경에 따라 개별 매장에서 Apple Pay를 사용할 수 없는 경우가 있습니다. 브랜드 목록만으로는 방문할 매장의 실제 결제 가능 여부를 판단하기 어렵다는 점에 주목했습니다. 확인할 수 있는 단말기 정보와 최근 결제 이력을 탐색의 근거로 활용하고자 했습니다.',question:'브랜드 안내만으로 알기 어려운<br>개별 매장의 결제 가능 여부',decisions:[['결제 정보의 활용','단말기 정보와 최근 다른 고객의 결제 이력을 매장 확인의 근거로 활용하도록 구체화했습니다.'],['현재 위치를 출발점으로','위치 권한에 동의한 고객이 가까운 매장을 지도에서 확인할 수 있도록 흐름을 설계했습니다.'],['탐색 다음의 행동','매장 정보 확인에서 끝나지 않고 길찾기로 이어지도록 구성했습니다.']],flow:['서비스 진입','위치 권한 동의','주변 매장 탐색·검색','상세 확인·길찾기'],delivery:'아이디어를 구체화해 보라는 요청을 바탕으로 서비스 아이디어, 사용자 흐름, 화면설계와 디자인을 맡아 내부 검토를 받았습니다.',note:'내부 검토를 위해 구체화한 서비스 제안입니다. 화면은 당시 기획 자료 기준입니다.',captions:['매장명·주소로 찾는 검색 결과','매장 상세 확인과 길찾기 연결']},
-  {id:'mobileweb',client:'농협중앙회',period:'2022.06 — 2023.05',status:'신규 구축 · 운영 반영',name:'명함 QR코드에서 이어지는<br>우리 지점의 금융상품',short:'명함의 QR코드로 해당 지점의 상품을 확인하고, 앱 가입 화면으로 이어지도록 설계했습니다.',images:['nh','nh-detail'],role:'전체 화면 기획 · UX/UI 디자인 · 개발 협업 · 테스트',title:'명함의 QR코드로 접속하는<br>지점별 금융상품 모바일웹',summary:'명함 QR코드로 접속한 지점과 담당자의 정보를 유지하며, 상품 탐색부터 앱 가입 화면까지 연결한 모바일웹입니다.',context:'직원이 고객에게 명함을 건넨 뒤, 고객이 해당 지점의 금융상품을 바로 확인할 수 있는 경로가 필요했습니다. 모든 지점의 상품을 한 번에 보여주는 대신, 명함의 QR코드에 연결된 지점과 담당자의 정보를 유지하면서 그 지점의 상품을 안내하는 것이 요구조건이었습니다.',question:'오프라인에서 시작한 만남을<br>온라인 상품 탐색으로 연결',decisions:[['접속한 지점의 맥락 유지','QR코드에 연결된 지점과 담당자를 보여주고, 해당 지점의 상품을 확인하도록 구성했습니다.'],['상품을 찾는 화면','특판과 추천 상품, 상품 유형별 탐색을 구성해 원하는 상품에 접근할 수 있도록 했습니다.'],['앱 가입 화면으로 연결','지점 정보를 유지한 채 앱의 가입 화면으로 이동하도록 흐름을 설계했습니다.']],flow:['명함 QR코드 접속','연결된 지점·담당자 확인','해당 지점의 상품 탐색','앱 가입 화면으로 이동'],delivery:'모바일웹의 전체 화면을 기획하고 디자인했습니다. 개발자·디자이너와 구현 내용을 함께 확인하고 테스트를 진행한 뒤 운영에 반영했습니다.',note:'화면은 프로젝트 당시 자료입니다. 이미지에 표시된 금리와 이벤트는 현재 판매 조건이 아닙니다.',captions:['지점·직원 정보를 유지한 상품 안내','상품을 확인하고 다음 화면으로']},
-  {id:'finder',client:'농협중앙회',period:'2021.09 — 2023.09 근무 당시',status:'신규 서비스 · 운영 반영',name:'내 조건으로 찾는<br>나만의 예·적금',short:'선택한 지점의 상품 중 금액과 기간에 맞는 최고금리를 확인하도록 기획했습니다.',images:['finder-input','finder-result'],role:'전체 서비스 화면 기획 · UX/UI 디자인 · 테스트',title:'선택한 지점에서 찾는<br>나만의 예·적금',summary:'선택한 지점 안에서 가입금액·기간에 맞는 예금과 적금 상품을 조회하는 신규 서비스입니다.',context:'전체 지점을 통합 비교하는 서비스가 아니라, 선택한 지점 안에서 고객이 가입할 수 있는 상품의 최고금리를 알려줘야 했습니다. 이 요구조건을 바탕으로 지점 확인, 상품 종류 선택, 조건 입력과 결과 확인으로 이어지는 전체 화면을 기획하고 디자인했습니다.',question:'예금과 적금의 차이를<br>각각의 입력 구조에 반영',decisions:[['지점을 먼저 확인','어느 지점의 상품을 조회하는지 확인하고, 필요하면 지점을 변경할 수 있도록 구성했습니다.'],['상품별 입력 분기','예금은 가입금액을, 적금은 종류와 월 납입금액을 입력하도록 구분했습니다. 금액 가산 버튼과 기간 선택으로 입력을 도왔습니다.'],['금리의 구성까지 확인','결과 상단에 조회 조건을 보여주고, 기본금리와 우대·추가 우대금리의 상세 내용을 확인할 수 있도록 구성했습니다.']],flow:['조회 지점 확인','예금·적금 선택','금액·기간 입력','상품 결과·금리 상세 확인'],delivery:'요구조건을 화면과 입력 흐름으로 구체화하고, 개발자·디자이너와 확인·테스트한 뒤 운영에 반영했습니다.',note:'프로젝트 당시의 디자인 화면으로, 현재 상품 조건을 안내하지 않습니다.',captions:['상품 유형별 금액·기간 입력','조회 조건과 상품 결과 확인'],extra:['finder-saving','finder-rate'],extraCaptions:['적금 유형에 맞춘 입력 분기','기본·우대금리 상세 안내']},
-  {id:'course',client:'가톨릭관동대학교',period:'2019.09 — 2021.08',status:'안내 제작 · 채널 운영',name:'수강신청의 막막함을<br>실행할 수 있는 안내로',short:'공통 교육과정을 학생의 상황에 맞는 수강신청 가이드로 풀었습니다.',images:[],role:'안내 콘텐츠 기획·제작 · 홈페이지 게시 · 학생 안내',title:'“무엇을 신청해야 하죠?”<br>그 질문에서 시작한 안내',summary:'학생들이 교양·전공 이수 조건을 이해하고 수강신청을 준비할 수 있도록 직접 제작·배포한 안내서입니다.',context:'5년제 건축학전공은 필수 교과목의 이수 흐름이 있고, 교양 선택에서도 이전 학기의 이수 상황을 함께 확인해야 했습니다. 학생들이 혼자 판단하기 어려워하는 부분을 가까이에서 듣고, 기존 공통 교육과정을 실제 수강신청 단계에 맞는 안내 파일로 정리했습니다.',question:'기준 자료에서<br>내가 신청할 과목을 찾을 수 있도록',decisions:[['상황에 따라 나누기','학생의 그룹과 이수 상황에 따라 필요한 과목과 선택 조건을 구분해 안내했습니다.'],['막히는 지점을 먼저 안내','교양 선택 기준과 과목 마감 시 대안, 이수 내역을 확인하는 경로 등 실행에 필요한 정보를 정리했습니다.'],['안내가 닿는 경로 운영','사용하지 않던 학과 홈페이지 공지 채널을 운영하고, 안내 파일을 게시한 뒤 문자와 상담으로 연결했습니다.']],flow:['학생의 어려움 확인','그룹·이수 조건별 정보 정리','수강신청 안내 파일 제작','홈페이지 게시·문자 안내'],delivery:'학과의 공통 교육과정을 바탕으로 학생별 이수 상황에 맞는 실행 가이드를 직접 제작·배포하고, 수강신청 일정과 개별 상황을 안내했습니다.',note:'아래 가이드는 실제 제작했던 안내의 구조를 포트폴리오용으로 재구성한 예시입니다. 학생 개인정보는 포함하지 않았습니다.'}
+  {
+    "id": "toss",
+    "client": "농협중앙회 · 토스 연계",
+    "period": "2025.02 — 현재",
+    "status": "운영 반영",
+    "name": "토스에서 만나는<br>농·축협 최고금리.",
+    "short": "높은 금리는 먼저,<br>가입 조건은 명확하게.",
+    "role": "기획한 화면을 운영 화면으로",
+    "metaRole": "개발·디자인 협의 · 테스트 · 최종 화면 반영",
+    "title": "토스에서 만나는<br>농·축협 최고금리.",
+    "summary": "최고금리·기간·지점을 읽기 쉽게,<br>순위와 캐릭터로 더 친근하게.",
+    "contextHeading": "토스에서 농·축협 상품을, 더 쉽게 발견하도록",
+    "context": "상품을 더 많이 발견하도록,<br>외부 채널의 상품 탐색 화면을 구성했습니다.",
+    "designHeading": "비교의 기준은 선명하게, 표현은 친근하게",
+    "decisions": [
+      [
+        "최고금리를 먼저 읽게",
+        "1위 상품을 강조하고, 금리·기간·지점을<br>같은 정보 위계로 정리했습니다."
+      ],
+      [
+        "순위에 친근한 표정을 더해",
+        "메달과 기존 콕뱅크 캐릭터를 활용해<br>금융 정보의 시각적 진입점을 만들었습니다."
+      ],
+      [
+        "기획한 화면을 운영 화면으로",
+        "개발·디자인 협의와 테스트를 거쳐<br>최종 화면에 반영했습니다."
+      ]
+    ],
+    "images": [
+      "toss",
+      "toss-detail"
+    ],
+    "captions": [
+      "최고금리를 먼저 읽게",
+      "순위에 친근한 표정을 더해"
+    ],
+    "sourcePages": [
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "applepay",
+    "client": "현대카드",
+    "period": "2024.08 — 2025.01",
+    "status": "아이디어 구체화 및 검토 완료",
+    "name": "Apple Pay",
+    "short": "쓸 수 있는 곳을,<br>갈 수 있는 곳으로.",
+    "role": "지도 서비스 기획",
+    "metaRole": "서비스 아이디어 제안 · 사용자 흐름 · 화면 설계 · 디자인",
+    "title": "쓸 수 있는 곳을,<br>갈 수 있는 곳으로.",
+    "summary": "단말기 정보와 최근 결제 이력을<br>주변 매장 탐색·길찾기로 연결",
+    "contextHeading": "브랜드를 알아도, 지금 갈 수 있는 매장을 찾기 어려웠습니다.",
+    "context": "같은 브랜드여도 단말기 사정에 따라<br>결제 가능 여부는 달라질 수 있습니다.",
+    "designHeading": "결제 가능한 매장을 쉽게 찾도록",
+    "decisions": [
+      [
+        "단말기 정보",
+        "매장별 결제 환경을 확인할 수 있는 자료"
+      ],
+      [
+        "최근 결제 이력",
+        "다른 고객의 최근 결제를 선택의 참고 정보로"
+      ],
+      [
+        "방문으로 연결",
+        "위치 동의 → 주변 탐색 → 상세 확인 → 길찾기"
+      ]
+    ],
+    "images": [
+      "hy-results",
+      "hy-detail"
+    ],
+    "captions": [
+      "주변 매장 탐색",
+      "매장 상세 · 길찾기"
+    ],
+    "sourcePages": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "id": "mobileweb",
+    "client": "농협중앙회",
+    "period": "2022.06 — 2023.05",
+    "status": "운영 반영",
+    "name": "NH모바일웹",
+    "short": "명함에서<br>가입까지.",
+    "role": "우리 지점의 금융을<br>고객의 손안으로.",
+    "metaRole": "지점·직원별 비대면 금융상품 안내 채널",
+    "title": "명함에서<br>가입까지.",
+    "summary": "명함의 QR코드로 지점 상품을 확인하고,<br>쉽게 가입할 수 있도록.",
+    "contextHeading": "우리 지점의 상품 탐색부터 가입까지,<br>하나의 경험으로 연결",
+    "context": "지점이나 직원을 다시 찾지 않고,<br>연결된 모바일웹으로 이동합니다.",
+    "designHeading": "명함의 QR에서, 우리 지점 상품과 앱 가입으로.",
+    "decisions": [
+      [
+        "지점·직원 정보 유지",
+        "명함 QR에 연결된 지점과 담당자를 보여줍니다."
+      ],
+      [
+        "해당 지점의 상품 안내",
+        "우리 지점의 상품과 특판을 확인할 수 있게 합니다."
+      ],
+      [
+        "가입 화면으로 연결",
+        "지점 정보를 유지한 채 앱의 가입 화면으로 이동합니다."
+      ]
+    ],
+    "images": [
+      "nh",
+      "nh-detail"
+    ],
+    "captions": [
+      "해당 지점의 상품 확인",
+      "앱의 가입 화면으로 이동"
+    ],
+    "sourcePages": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "id": "finder",
+    "client": "농협중앙회",
+    "period": "2021.09 — 2023.09 근무 당시",
+    "status": "신규 서비스 · 운영 반영",
+    "name": "나만의 예·적금 찾기",
+    "short": "상품보다 먼저,<br>고객의 조건을 묻다.",
+    "role": "예금 / 가입금액 · 기간<br>적금 / 종류 · 월 납입금액 · 기간",
+    "metaRole": "전체 화면 기획 · 디자인 · 개발 협업 · 테스트",
+    "title": "상품보다 먼저,<br>고객의 조건을 묻다.",
+    "summary": "선택한 지점 안에서,<br>조건에 맞는 최고금리 상품을 탐색합니다.",
+    "contextHeading": "지점을 정하고, 예·적금별 가입 조건을 입력합니다.",
+    "context": "선택한 지점 안에서만<br>예금·적금 상품을 조회합니다.",
+    "contextBlocks": [
+      [
+        "입력 편의와 검증",
+        "금액 가산 버튼과 기간 선택을 제공하고,<br>최소금액에 미달하면 안내합니다."
+      ]
+    ],
+    "designHeading": "추천 금리와 적용 조건을 함께 확인합니다.",
+    "decisions": [
+      [
+        "비교 기준 유지",
+        "입력한 금액·기간을<br>결과 화면에서도 확인"
+      ],
+      [
+        "최고금리 상품 탐색",
+        "선택한 지점 안에서<br>조건에 맞는 상품을 조회"
+      ],
+      [
+        "금리의 근거 확인",
+        "기본·우대·추가 우대금리를<br>구분하고 가입으로 연결"
+      ]
+    ],
+    "images": [
+      "finder-input",
+      "finder-result"
+    ],
+    "captions": [
+      "가입금액 · 기간",
+      "추천 결과"
+    ],
+    "extra": [
+      "finder-saving",
+      "finder-rate"
+    ],
+    "extraCaptions": [
+      "종류 · 월 납입금액 · 기간",
+      "금리 상세"
+    ],
+    "sourcePages": [
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "id": "course",
+    "client": "가톨릭관동대학교",
+    "period": "2019.09 — 2021.08",
+    "status": "홈페이지 운영 및 관리",
+    "name": "학생의 선택을 돕는<br>수강신청 가이드.",
+    "short": "공통 교육과정을, 학생이 실행할 안내로.",
+    "role": "가이드 제작 · 홈페이지 게시 · 문자로 이용 안내",
+    "roleParts": [
+      "가이드 제작",
+      "홈페이지 게시",
+      "문자로 이용 안내"
+    ],
+    "metaRole": "학사 안내 정보 설계 · 홈페이지 운영 및 관리",
+    "title": "같은 안내를 봐도,<br>학생마다 필요한 답은 달랐습니다.",
+    "summary": "5년제 건축학 전공 · 필수 교과목과 교양 이수 조건 안내",
+    "contextHeading": "그룹과 이수 조건별로.",
+    "contextBlocks": [
+      [
+        "교양을 고를 때",
+        "지난 학기에 들은 교양,<br>이번에는 어떤 영역을 골라야 할까?"
+      ],
+      [
+        "전공을 이수할 때",
+        "전공 필수와 설계 과목,<br>어떤 순서로 들어야 할까?"
+      ],
+      [
+        "과목이 마감됐을 때",
+        "신청하려던 과목이 마감되면,<br>대신 무엇을 신청해야 할까?"
+      ]
+    ],
+    "designHeading": "공통 교육과정을, 학생이 실행할 안내로.",
+    "decisions": [
+      [
+        "그룹별로 안내",
+        "교육과정과 이수 조건을 바탕으로<br>학생이 신청할 과목을 정리했습니다."
+      ],
+      [
+        "찾을 수 있게 운영",
+        "안내 파일을 직접 만들어 홈페이지에<br>올리고, 문자로 확인을 안내했습니다."
+      ]
+    ],
+    "images": [],
+    "sourcePages": [
+      15,
+      16,
+      17
+    ]
+  }
 ];
-const labs=[{id:'spy',name:'SPY WISH',date:'09.28',image:'spy-result',url:'https://spywish.web.app/',tag:'만세력 · 사주 기반 매칭',description:'생년월일과 만세력·사주를 바탕으로, 나와 잘 맞는 멤버를 퍼센트와 메시지로 보여주는 모바일웹입니다.'},{id:'dream',name:'Like a dream',date:'10.18',image:'dream-result',url:'https://spywish.web.app/like_a_dream/',tag:'카드 선택 · 메시지 · 음악',description:'이름을 입력하고 카드를 고르면 멤버별 한마디가 돌아옵니다. 음악과 결과 공유를 더해 작은 카드 한 장의 분위기까지 구성했습니다.'},{id:'pepero',name:'Pepero Day',date:'11.10',image:'pepero-result',url:'https://spywish.web.app/pepero/',tag:'성향 질문 · AI 대사 · 결과 공유',description:'질문에 대한 선택을 멤버별 결과로 연결했습니다. 성향 분석을 바탕으로 AI를 활용해 대사를 제작하고, 결과 카드와 공유 이미지를 다듬었습니다.'}];
+const labs = [
+  {
+    "id": "spy",
+    "name": "SPY WISH",
+    "date": "09.28",
+    "image": "spy-result",
+    "url": "https://spywish.web.app/",
+    "tag": "사주 기반의 궁합을, 매칭 퍼센트로.",
+    "title": "만세력으로 찾는, 나와 잘 맞는 멤버.",
+    "flow": "대상 선택 · 생년월일 입력 → 멤버별 궁합 결과",
+    "blocks": [
+      [
+        "사주 기반의 궁합을, 매칭 퍼센트로.",
+        "생년월일을 만세력·사주 기반으로<br>해석해, 나와 잘 맞는 멤버와의<br>궁합을 퍼센트로 보여줍니다."
+      ],
+      [
+        "궁합을 이야기로 연결",
+        "궁합 퍼센트 + 멤버별 대사<br>+ 에피소드 · 커플 아이템"
+      ]
+    ],
+    "metrics": [
+      "33,185",
+      "23,274",
+      "912"
+    ],
+    "sourcePages": [
+      18,
+      19
+    ]
+  },
+  {
+    "id": "dream",
+    "name": "Like a dream",
+    "date": "10.18",
+    "image": "dream-result",
+    "url": "https://spywish.web.app/like_a_dream/",
+    "tag": "이름과 멤버별 메시지 연결",
+    "title": "이름을 담은 카드, 음악과 함께 건네는 위로.",
+    "flow": "이름 입력 → 카드 선택 → 멤버별 메시지 확인 → 공유 또는 다시 뽑기",
+    "blocks": [
+      [
+        "이름과 멤버별 메시지 연결",
+        "입력한 이름을 결과 대사에 담고, 공유와 다시 뽑기로 흐름을 이어갑니다."
+      ],
+      [
+        "음악으로 이어지는 분위기",
+        "음악 재생 기능으로 카드 경험의 감성을 더했습니다."
+      ]
+    ],
+    "metrics": [
+      "8,756",
+      "6,255",
+      "234"
+    ],
+    "sourcePages": [
+      18,
+      20
+    ]
+  },
+  {
+    "id": "pepero",
+    "name": "Pepero Day",
+    "date": "11.10",
+    "image": "pepero-result",
+    "url": "https://spywish.web.app/pepero/",
+    "tag": "성향을 반영해 AI로 대사를 구성",
+    "title": "내가 고른 마음 끝에, 나를 기다리던 한마디.",
+    "flow": "시즌 스토리 → 질문과 선택 → 멤버별 결과 · 대사 확인 → 공유",
+    "blocks": [
+      [
+        "성향을 반영해 AI로 대사를 구성",
+        "멤버별 성향을 바탕으로 대사를 만들고, 질문의 선택과 각 결과 콘텐츠를 연결했습니다."
+      ]
+    ],
+    "metrics": [
+      "31,489",
+      "21,409",
+      "1,032"
+    ],
+    "sourcePages": [
+      18,
+      21
+    ]
+  }
+];
 const finderSizes={'finder-input':[720,1560],'finder-result':[720,1560],'finder-saving':[720,1604],'finder-rate':[720,1560]};
 function phone(key,alt='',loading='lazy'){
   if(finderSizes[key]){const [w,h]=finderSizes[key];return `<div class="screen-shot"><img src="assets/${key}.webp" alt="${alt}" loading="${loading}" width="${w}" height="${h}" style="aspect-ratio:${w}/${h}"></div>`;}
@@ -15,18 +325,27 @@ function projectVisual(p){
   if(p.id==='toss') return `<div class="screen-pair toss-pair">${phone('toss','최고금리와 1위 상품 중심의 화면')}<div class="screen-fragment"><img src="assets/toss-detail.webp" alt="순위별 상품과 기간·지점·금리 정보" loading="lazy"></div></div>`;
   if(p.id==='applepay') return `<div class="map-crop"><img src="assets/hy.webp" alt="주변 결제 가능 매장을 찾는 지도 화면" loading="lazy"></div>${phone('hy-results','매장명과 주소로 찾는 검색 결과 화면')}`;
   if(p.id==='mobileweb') return `${phone('nh','명함 QR로 접속하는 지점별 금융상품 안내')}<div class="screen-fragment"><img src="assets/nh-detail.webp" alt="해당 지점의 상품 상세 안내" loading="lazy"></div>`;
-  if(p.id==='finder') return `<div class="finder-sequence">${[['finder-input','예금 조건 입력'],['finder-saving','적금 조건 입력'],['finder-result','상품 결과 확인']].map(([im,label])=>`<figure>${phone(im,label)}<figcaption>${label}</figcaption></figure>`).join('')}</div>`;
-  return `<div class="guide-art"><p>수강신청 안내</p><h4>내가 신청할 과목을<br>찾을 수 있도록</h4><div class="guide-groups"><span>가반</span><span>나반</span><span>다반</span><span>라반</span></div><div class="guide-row">그룹에 맞는 전공 과목</div><div class="guide-row">지난 학기의 교양 이수 영역</div><div class="guide-row">과목 마감 시 선택할 수 있는 대안</div><small>직접 제작한 안내서의 구조를 재구성한 예시</small></div>`;
+  if(p.id==='finder') return `<div class="finder-sequence">${[['finder-input','가입금액 · 기간'],['finder-saving','종류 · 월 납입금액 · 기간'],['finder-result','추천 결과']].map(([im,label])=>`<figure>${phone(im,label)}<figcaption>${label}</figcaption></figure>`).join('')}</div>`;
+  return `<div class="guide-art"><p>그룹별 수강신청 안내</p><h4>가반 선택 시<br>확인할 과목</h4><div class="guide-groups"><span>가반</span><span>나반</span><span>다반</span><span>라반</span></div><div class="guide-row">건축설계기초 2 · 전공 과목 확인</div><div class="guide-row">건축조형론 · 지정 분반 확인</div><div class="guide-row">인간학 · B 또는 C 선택</div><small>원본 안내 내용을 바탕으로 재구성한 선택 예시</small></div>`;
 }
 function renderHome(){
-  document.querySelector('#work-grid').innerHTML=projects.map(p=>`<a class="work-card ${p.id}" href="project.html?project=${p.id}"><div class="work-info"><p class="work-client">${p.client}</p><span class="work-period">${p.period}</span><h3>${p.name}</h3><p class="work-description">${p.short}</p><div class="work-role">${p.role}</div><span class="card-link">기획 과정 보기</span></div><div class="work-visual ${p.id}">${projectVisual(p)}</div><span class="project-status">${p.status}</span></a>`).join('');
-  document.querySelector('#lab-grid').innerHTML=labs.map(p=>`<article class="lab ${p.id}"><a href="project.html?project=playground#${p.id}" aria-label="${p.name} 제작 과정 보기"><div class="lab-art"><img src="assets/${p.image}.webp" alt="${p.name} 멤버별 결과 카드" loading="lazy" width="600" height="1000"></div><h3>${p.name}</h3></a><p>${p.tag}</p><small>2026.${p.date} 공개</small><a class="lab-link" href="${p.url}" target="_blank" rel="noopener noreferrer">서비스 직접 보기</a></article>`).join('');
+  document.querySelector('#work-grid').innerHTML=projects.map(p=>`<a class="work-card ${p.id}" href="project.html?project=${p.id}"><div class="work-info"><p class="work-client">${p.client}</p><span class="work-period">${p.period}</span><h3>${p.name}</h3><p class="work-description">${p.short}</p><div class="work-role">${p.roleParts?`<ul class="role-list">${p.roleParts.map(t=>`<li>${t}</li>`).join('')}</ul>`:p.role}</div><span class="card-link">기획 과정 보기</span></div><div class="work-visual ${p.id}">${projectVisual(p)}</div><span class="project-status">${p.status}</span></a>`).join('');
+  document.querySelector('#lab-grid').innerHTML=labs.map(p=>`<article class="lab ${p.id}"><a href="project.html?project=playground#${p.id}" aria-label="${p.name} 제작 과정 보기"><div class="lab-art"><img src="assets/${p.image}.webp" alt="${p.name} 멤버별 결과 카드" loading="lazy" width="600" height="1000"></div><h3>${p.name}</h3></a><p>${p.tag}</p><small>등록 2026.${p.date}</small><a class="lab-link" href="${p.url}" target="_blank" rel="noopener noreferrer">서비스 직접 보기</a></article>`).join('');
 }
 function meta(period,role,client){return `<dl class="case-meta"><div><dt>프로젝트</dt><dd>${client}</dd></div><div><dt>기간</dt><dd>${period}</dd></div><div><dt>담당 범위</dt><dd>${role}</dd></div></dl>`}
-function courseExample(){return `<div class="course-example"><article><p class="eyebrow">그룹별 안내</p><h3>그룹별 수강신청 안내</h3><div class="course-tabs"><span>가반</span><span>나반</span><span>다반</span><span>라반</span></div><div class="course-line">우리 그룹에 해당하는 전공 과목</div><div class="course-line">지난 학기 이수한 교양 영역</div><div class="course-line">이번 학기에 선택할 수 있는 영역</div><p>공통 교육과정에서 지금 필요한 내용을 찾아볼 수 있도록.</p></article><article><p class="eyebrow">선택 조건 안내</p><h3>선택이 막히는 순간까지</h3><div class="course-rule">이수 영역이 기억나지 않는다면<strong>성적 조회 경로 안내</strong></div><div class="course-rule">신청할 과목이 마감됐다면<strong>선택할 수 있는 대안 안내</strong></div><p>학생의 질문과 예외 상황을 안내 안에 함께 담았습니다.</p></article></div>`}
+function courseExample(){return `<div class="course-example"><article><h3>그룹별 수강신청 안내</h3><div class="course-tabs"><span>가반</span><span>나반</span><span>다반</span><span>라반</span></div><p>가반 선택 시 확인할 과목</p><div class="course-line">건축설계기초 2 · 전공 과목 확인</div><div class="course-line">건축조형론 · 지정 분반 확인</div><div class="course-line">인간학 · B 또는 C 선택</div><div class="course-rule">마감된 과목은?<strong>인간학 B 마감 → C 우선 선택</strong></div></article><article><h3>교양 선택 안내</h3><div class="course-rule">지난 학기 이수 영역 확인<strong>사유와 지혜 · 가치와 실천</strong></div><div class="course-rule">남은 영역에서 이번 학기 과목 선택<strong>상상력과 표현 · 인문융합</strong></div><p>이수 영역이 기억나지 않는다면<br>종합정보 → 학적관리 → 전체성적조회</p></article></div><p class="source-caption">원본 안내 내용을 바탕으로 재구성한 선택 예시</p>`}
 function gallery(images,captions){return `<div class="case-gallery">${images.map((key,i)=>`<figure>${phone(key,captions[i])}<figcaption>${captions[i]}</figcaption></figure>`).join('')}</div>`}
-function renderCase(p){document.title=p.name.replaceAll('<br>',' ')+' — 이다솔';const next=projects[(projects.indexOf(p)+1)%projects.length];document.querySelector('#main').innerHTML=`<section class="case-intro wrap"><a class="back-link" href="./#work">전체 프로젝트</a><p class="eyebrow">${p.client} · ${p.status}</p><h1 class="case-heading">${p.title}</h1><p class="case-summary">${p.summary}</p>${meta(p.period,p.role,p.client)}</section>${p.images.length?`<div class="case-hero ${p.id}"><div class="case-hero-inner">${p.images.map((im,i)=>phone(im,p.captions[i],i?'lazy':'eager')).join('')}</div></div>`:''}<div class="case-body"><section class="case-section"><p class="eyebrow">기획 배경</p><h2>${p.question}</h2><p>${p.context}</p></section><section class="case-section"><p class="eyebrow">화면 설계</p><h2>${({toss:"비교할 정보를 먼저 보여주도록",applepay:"확인할 근거와 이동할 경로를 함께",mobileweb:"접속한 지점의 맥락을 유지하도록",finder:"상품별 입력 조건과 금리 정보를 함께",course:"지금 해야 할 일을 찾을 수 있도록"})[p.id]}</h2><div class="case-decisions">${p.decisions.map(([title,desc])=>`<article class="case-decision"><h3>${title}</h3><p>${desc}</p></article>`).join('')}</div><ol class="flow" aria-label="서비스 이용 흐름">${p.flow.map(s=>`<li>${s}</li>`).join('')}</ol>${p.id==='course'?courseExample():gallery(p.images,p.captions)}${p.extra?gallery(p.extra,p.extraCaptions):''}</section><section class="case-section"><p class="eyebrow">담당 역할과 반영</p><h2>제가 맡아 진행한 일</h2><p>${p.delivery}</p><p class="case-note">${p.note}</p></section><div class="case-next"><div><p class="eyebrow">다음 프로젝트</p><h3>${next.name}</h3></div><a class="text-link" href="project.html?project=${next.id}">다음 프로젝트 보기<span class="link-line"></span></a></div></div>`}
-function renderLabs(){document.title='AI 모바일웹 실험 — 이다솔';document.querySelector('#main').innerHTML=`<section class="case-intro wrap"><a class="back-link" href="./#playground">포트폴리오로 돌아가기</a><p class="eyebrow">개인 프로젝트 · 2026</p><h1 class="case-heading">작은 선택에 돌아오는<br>나를 위한 한마디</h1><p class="case-summary">아이디어부터 화면·동작·공유 이미지를 직접 기획하고, AI를 활용해 구현·공개한 세 가지 모바일웹입니다.</p>${meta('2026.09 — 2026.11','기획 · UX/UI 디자인 · Codex 활용 구현 · 공개','개인 작업')}</section><div class="case-body"><section class="case-section"><p class="eyebrow">제작 과정</p><h2>기획한 경험을 구현하고<br>직접 확인하며 다듬은 과정</h2><p>Codex에 기획 의도와 화면·동작 요구사항을 구체적으로 전달하고, 구현된 결과를 확인하며 반복 수정했습니다. 세 프로젝트는 같은 화면을 반복하기보다, 사주 기반 매칭·카드 선택·성향 질문이라는 서로 다른 참여 방식으로 멤버별 결과를 만나도록 구성했습니다.</p><div class="case-decisions"><article class="case-decision"><h3>참여 방식 설계</h3><p>입력과 선택이 결과로 이어지는 흐름을 서비스의 분위기에 맞게 구성했습니다.</p></article><article class="case-decision"><h3>결과의 분위기</h3><p>멤버별 이미지와 메시지, 음악 등 결과를 받는 순간의 디테일을 함께 다듬었습니다.</p></article><article class="case-decision"><h3>화면 밖의 공유</h3><p>공유되는 채널에 따라 이미지의 비율과 배치를 조정했습니다.</p></article></div></section>${labs.map(p=>`<section class="case-section" id="${p.id}"><p class="eyebrow">${p.name.toUpperCase()} · 2026.${p.date} 공개</p><h2>${p.id==='spy'?'나와 잘 맞는 멤버를<br>퍼센트와 이야기로':p.id==='dream'?'마음이 머무는 카드를 고르면<br>돌아오는 다정한 한마디':'내가 고른 답에 맞춰<br>돌아오는 멤버의 한마디'}</h2><div class="lab-detail"><img src="assets/${p.image}.webp" alt="${p.name} 결과 화면" loading="lazy"><div><h3>${p.tag}</h3><p>${p.description}</p><a class="text-link" href="${p.url}" target="_blank" rel="noopener noreferrer">서비스 직접 보기<span class="link-line"></span></a></div></div></section>`).join('')}<section class="case-section"><p class="eyebrow">공유 화면 설계</p><h2>결과를 확인하는 화면에서<br>공유되는 이미지까지</h2><p>웹 화면에서 예쁘게 보이는 것만으로 끝내지 않았습니다. 인스타그램과 메시지에서 결과가 공유될 때 이미지가 어떻게 잘리고 보이는지 살피며, 각 형식에 맞춰 배치를 조정했습니다. 아래는 공유 형식의 차이를 설명하기 위한 재구성입니다.</p><div class="share-formats">${[['릴스','세로 화면',''],['게시물','피드 안의 결과 카드','square'],['스토리','한 화면에 담긴 결과',''],['메시지','작게 보여도 알아보게','message']].map(([title,desc,cl])=>`<div class="share-format"><div class="format-art ${cl}"><img src="assets/pepero-result.webp" alt="${title} 공유 이미지 예시" loading="lazy"></div><strong>${title}</strong><span>${desc}</span></div>`).join('')}</div><p class="case-note">AI를 활용한 개인 모바일웹 제작 경험입니다. 금융 실무 프로젝트 및 직무 경력과 구분해 소개합니다.</p></section><div class="case-next"><div><p class="eyebrow">대표 프로젝트</p><h3>화면에 담은 기획의 과정</h3></div><a class="text-link" href="./#work">금융 프로젝트 보기<span class="link-line"></span></a></div></div>`;if(location.hash){requestAnimationFrame(()=>document.getElementById(location.hash.slice(1))?.scrollIntoView())}}
+function copyBlocks(blocks,cls='context-cards'){return `<div class="${cls} ${blocks.length===2?'two':''}">${blocks.map(([title,body])=>`<article><h3>${title}</h3><p>${body}</p></article>`).join('')}</div>`}
+function renderCase(p){
+  document.title=p.name.replaceAll('<br>',' ')+' — 이다솔';
+  const next=projects[(projects.indexOf(p)+1)%projects.length];
+  document.querySelector('#main').innerHTML=`<section class="case-intro wrap"><a class="back-link" href="./#work">전체 프로젝트</a><p class="eyebrow">${p.client} · ${p.status}</p><h1 class="case-heading">${p.title}</h1><p class="case-summary">${p.summary}</p>${meta(p.period,p.metaRole,p.client)}</section>${p.images.length?`<div class="case-hero ${p.id}"><div class="case-hero-inner">${p.images.map((im,i)=>phone(im,p.captions[i],i?'lazy':'eager')).join('')}</div></div>`:''}<div class="case-body"><section class="case-section"><p class="eyebrow">기획 배경</p><h2>${p.contextHeading}</h2>${p.context?`<p class="original-copy">${p.context}</p>`:''}${p.contextBlocks?copyBlocks(p.contextBlocks):''}</section><section class="case-section"><p class="eyebrow">화면 설계</p><h2>${p.designHeading}</h2>${copyBlocks(p.decisions,'case-decisions')}${p.id==='course'?courseExample():gallery(p.images,p.captions)}${p.extra?gallery(p.extra,p.extraCaptions):''}</section><div class="case-next"><div><p class="eyebrow">다음 프로젝트</p><h3>${next.name}</h3></div><a class="text-link" href="project.html?project=${next.id}">프로젝트 보기<span class="link-line"></span></a></div></div>`;
+}
+function renderLabs(){
+  document.title='AI 모바일웹 프로젝트 — 이다솔';
+  document.querySelector('#main').innerHTML=`<section class="case-intro wrap"><a class="back-link" href="./#playground">전체 프로젝트</a><p class="eyebrow">개인 프로젝트 · 2026</p><h1 class="case-heading">AI와 함께,<br>공개 가능한 웹으로.</h1><p class="case-summary">Codex로 구현하고,<br>릴스와 연결한 개인 모바일웹</p>${meta('2026.09 — 2026.11','기획 → 구현 → 공개','개인 프로젝트')}</section><div class="case-body">${labs.map(p=>`<section class="case-section" id="${p.id}"><p class="eyebrow">${p.name} · 등록 2026.${p.date}</p><h2>${p.title}</h2><p class="project-flow">${p.flow}</p><div class="lab-detail"><img src="assets/${p.image}.webp" alt="${p.name} 결과 화면" loading="lazy"><div class="lab-original-copy">${p.blocks.map(([title,body])=>`<div><h3>${title}</h3><p>${body}</p></div>`).join('')}<a class="text-link" href="${p.url}" target="_blank" rel="noopener noreferrer">서비스 보기<span class="link-line"></span></a></div></div><div class="reels-evidence"><div><h3>연결한 릴스의 반응</h3><p>2026.11.12. 캡처 기준</p></div><dl>${p.metrics.map((value,i)=>`<div><dt>${['조회','조회한 사람','공유'][i]}</dt><dd>${value}</dd></div>`).join('')}</dl></div></section>`).join('')}<section class="case-section"><p class="eyebrow">공유 화면</p><h2>결과를 보는 순간부터, 공유되는 화면까지.</h2><p class="original-copy">공유 형식마다 이미지가 보이는 범위를 다듬어,<br>인물과 메시지가 함께 전해지도록 구성했습니다.</p><div class="share-formats">${[['릴스',''],['게시물','square'],['스토리',''],['메시지','message']].map(([title,cl])=>`<div class="share-format"><div class="format-art ${cl}"><img src="assets/pepero-result.webp" alt="${title} 공유 화면" loading="lazy"></div><strong>${title}</strong></div>`).join('')}</div>${copyBlocks([['형식에 맞춘 화면','릴스 · 게시물 · 스토리 · 메시지'],['결과 콘텐츠 유지','멤버 이미지와 핵심 대사를 함께'],['공유까지 이어지는 설계','결과 화면에서 외부 공유 경험으로']])}</section><div class="case-next"><div><p class="eyebrow">대표 프로젝트</p><h3>토스에서 만나는<br>농·축협 최고금리.</h3></div><a class="text-link" href="./#work">전체 프로젝트<span class="link-line"></span></a></div></div>`;
+  if(location.hash)requestAnimationFrame(()=>document.getElementById(location.hash.slice(1))?.scrollIntoView());
+}
 if(document.querySelector('#work-grid'))renderHome();else{const id=new URLSearchParams(location.search).get('project');if(id==='playground')renderLabs();else{const p=projects.find(p=>p.id===id);if(p)renderCase(p);else document.querySelector('#main').innerHTML='<section class="case-intro wrap"><h1 class="case-heading">프로젝트를 찾지 못했어요.</h1><a class="text-link" href="./#work">전체 프로젝트 보기</a></section>'}}
 
 // A single gentle reveal per section; content stays visible without JavaScript.
